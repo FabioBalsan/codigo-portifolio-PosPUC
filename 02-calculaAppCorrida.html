@@ -1,0 +1,28 @@
+
+<script>
+    
+    
+    //Organiza Entradas e executar regra de negócio
+    var tarifaDinamica = 1.4
+    var distanciaEmKM = 10 * tarifaDinamica;
+    var tempoEmMin = 35 * 0.26;
+    var valorDaCorrida = distanciaEmKM + tempoEmMin;
+
+    alert("Valor da Corrida: "+valorDaCorrida)
+    /*
+        #App de Corrida
+
+        Preço Base Da Corrida
+        Custo Fixo
+        Horários e Regiões De Maior Movimento
+
+        -Distancia em KM
+        -Tempo em minutos
+    */
+</script>
+
+<input placeholder="Distancia em KM"/>
+<input placeholder="Tempo em minutos"/>
+<button onclick="calculaCorrida()">Calcular Corrida</button>
+
+
